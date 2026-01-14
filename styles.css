@@ -52,11 +52,13 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 /* Banner container */
 .banner-container {
+  padding-top: 5%;
   width: 100%;                 
   max-width: 100%;             
   height: auto;                
   position: relative;
-  overflow: hidden;           
+  overflow: hidden;       
+  background-color: black;    
 }
 
 
@@ -66,8 +68,65 @@ html, body, h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.game-media iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+}
 
+.page-center {
+  max-width: 900px;   
+  margin: 0 auto;    
+}
 
+.page-bg {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* LEFT + RIGHT side backgrounds */
+.page-bg::before,
+.page-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 220px;
+  height: 100%;
+  background-color: black;
+  /* background-image: url("images/Background.png"); */
+
+  /* 🔑 THIS MAKES IT TILE */
+  background-repeat: repeat-y;
+  background-size: 220px auto;  
+ 
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* LEFT */
+.page-bg::before {
+  left: 0;
+}
+
+/* RIGHT (mirrored) */
+.page-bg::after {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+/* responsive video */
+.video-container iframe {
+  width: 560px;
+  height: 315px;
+  max-width: 100%;
+}
 
 
 
