@@ -1,0 +1,80 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+.game-media {
+  max-width: 800px;
+  margin: auto;
+}
+
+.video-preview {
+  position: relative;
+  cursor: pointer;
+}
+
+.video-preview img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-preview .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: white;
+  opacity: 0.85;
+}
+
+.slideshow-container {
+  max-width: 500px;
+  aspect-ratio: 16 / 9;
+  margin: 16px 0 32px 0;
+  position: relative;
+}
+
+
+.slideshow-container img {
+  width: 100%;
+  height: 300px;
+  display: none;
+  border-radius: 8px;
+}
+
+/* Banner container */
+.banner-container {
+  width: 100%;                 
+  max-width: 100%;             
+  height: auto;                
+  position: relative;
+  overflow: hidden;           
+}
+
+
+.banner-container img.banner-bg {
+  width: 100%;                
+  height: auto;                
+  display: block;
+}
+
+/* Logo on top, left-aligned */
+.banner-container img.logo {
+  position: absolute;
+  top: 55%;          
+  left: 6%;        
+  transform: translateY(-50%); 
+  height: 250px;       
+  max-width: 400px;  
+}
+
+
+
