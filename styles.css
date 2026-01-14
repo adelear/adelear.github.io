@@ -69,7 +69,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 /* Logo on top, left-aligned */
 .banner-container img.logo {
   position: absolute;
-  top: 55%;          
+  top: 50%;          
   left: 6%;        
   transform: translateY(-50%); 
   height: 250px;       
