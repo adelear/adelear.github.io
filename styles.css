@@ -66,7 +66,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-/* Logo on top, left-aligned */
+
 .banner-container img.logo {
   position: absolute;
   top: 50%;          
@@ -74,6 +74,22 @@ html, body, h1, h2, h3, h4, h5, h6 {
   transform: translateY(-50%); 
   height: 60%;       
   max-width: 50%;  
+}
+
+@media (max-width: 768px) {
+  .banner-container img.logo {
+    height: 60px;     
+    max-width: 120px;  
+    left: 4%;         
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-container img.logo {
+    height: 50px;      
+    max-width: 100px;  
+    left: 3%;          
+  }
 }
 
 
