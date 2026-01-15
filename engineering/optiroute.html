@@ -61,15 +61,118 @@
 </div>
 
 
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-large">
+    <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+
+    <!-- Engineering Dropdown -->
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Engineering ▾</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="optiroute.html" class="w3-bar-item w3-button">OptiRoute</a>
+      </div>
+    </div>
+
+    <!-- Games Dropdown -->
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-theme-l1">Games ▾</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="../games/labinacs-cuisine.html" class="w3-bar-item w3-button">Labinac’s Cuisine</a>
+        <a href="../games/end-of-eros.html" class="w3-bar-item w3-button">End of Eros</a>
+        <a href="../games/sprout.html" class="w3-bar-item w3-button">SPROUT</a>
+        <a href="../games/freddys-revival.html" class="w3-bar-item w3-button">Freddy's Revival</a>
+      </div>
+    </div>
+
+    <a href="../contact.html" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
 <!-- Main content -->
 <div class="w3-main">
   <div class="w3-container page-center">
-
     <div class="w3-padding-32 w3-white w3-round-large w3-margin-bottom">
-      <h2>OptiRoute</h2>
+      <h2>ECE297 - OptiRoute</h2>
 
-      <p>Work in progress...</p>
-   </div>
+      <!-- Overview -->
+      <p>
+        <b>OptiRoute</b> is our custom Geographic Information System (GIS) built entirely in C++. 
+        We developed the map implementation from scratch with a focus on usability, responsiveness, 
+        and scalability. The system includes robust pathfinding functionality, featuring both the 
+        A* algorithm and a greedy algorithm with simulated annealing to explore solutions to the 
+        Traveling Salesman Problem. Designed with a user-friendly interface and informed by usability 
+        testing, this project showcases how complex algorithms can be applied in a practical GIS 
+        environment while laying the groundwork for future extensions and applications.
+      </p>
 
+      <!-- Key Features -->
+      <h3 class="w3-text-black w3-border-bottom w3-padding-bottom">Key Features</h3>
+
+      <h4>1) Learnable and Memorable User Interface</h4>
+      <ul>
+        <li>Intuitive Map View with full-screen display and clear street layouts</li>
+        <li>Zoom controls and “Clear Path” functionality</li>
+        <li>Search bars for intersections and points of interest (POIs)</li>
+        <li>On-screen guidance for directions and usage</li>
+        <li>POI categories: Essentials, Attractions, Food & Dining, Transportation</li>
+        <li>Accessible Help & Support button</li>
+        <li>Minimal and clear design with color-coded map elements</li>
+      </ul>
+      <img src="https://github.com/user-attachments/assets/5b4b2a20-805a-4fd1-9cc6-f29e170b3d8d" 
+           alt="OptiRoute Map Interface" class="w3-margin-top w3-round" style="width:100%; max-width:900px;">
+
+      <h4>2) Live Weather and Temperature</h4>
+      <ul>
+        <li>Displays current temperature and conditions using real-time weather API</li>
+        <li>Provides environmental context for navigation and route planning</li>
+      </ul>
+      <img src="https://github.com/user-attachments/assets/9e99e3e2-2b62-40a2-a48d-089402450c5b"
+           alt="Live Weather Overlay" class="w3-margin-top w3-round" style="width:100%; max-width:900px;">
+
+      <h4>3) Contrast Mode</h4>
+      <ul>
+        <li>Enhances visibility by adjusting map color scheme</li>
+        <li>Improves accessibility in low-light environments</li>
+        <li>Ensures readability for visually impaired users</li>
+      </ul>
+      <img src="https://github.com/user-attachments/assets/067387e2-73cb-4f4c-8af5-3a9c88b81b64"
+           alt="Contrast Mode Map" class="w3-margin-top w3-round" style="width:100%; max-width:900px;">
+
+      <h4>4) Pathfinding with A* Algorithm</h4>
+      <ul>
+        <li>Click two points to generate the shortest route with step-by-step directions</li>
+        <li>Route calculations consider travel time, turn angles, and penalties</li>
+        <li>The most efficient path is chosen based on total estimated time</li>
+      </ul>
+      <img src="https://github.com/user-attachments/assets/cb913820-7e6b-4738-b9ef-08ea64a6de98"
+           alt="A* Pathfinding Example" class="w3-margin-top w3-round" style="width:100%; max-width:900px;">
+
+      <!-- User Testing -->
+      <h3 class="w3-text-black w3-border-bottom w3-padding-bottom">User Testing</h3>
+      <p>
+        To evaluate usability, we conducted user testing sessions focusing on intuitive control, clear directions, 
+        loading speed, and accessibility. Participants interacted with the map and provided feedback through surveys. 
+        Results showed strong performance in intuitive control (4.39/5) and clear directions (4.35/5), 
+        with accessibility rated at 4.0/5. Loading speed was slightly lower (3.74/5), highlighting a key area 
+        for optimization. Overall, the system received an average score of 4.14/5.
+      </p>
+      <img src="https://github.com/user-attachments/assets/153e3e46-b767-4d5f-bd1a-8d1fe8b24d66"
+           alt="User Testing Results" class="w3-margin-top w3-round" style="width:100%; max-width:900px;">
+
+      <h3 class="w3-text-black w3-border-bottom w3-padding-bottom">Team Members</h3>
+      <ul class="interests-list w3-margin-top">
+        <li>Veronica Rae Leda</li>
+        <li>Arnav Patil</li>
+        <li>Keli Chen</li>
+
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
 </body>
 </html>
