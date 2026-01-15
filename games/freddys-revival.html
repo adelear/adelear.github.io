@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Adelear | Games</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<script src="../gallery.js"></script>
+
+<body>
+
+
+<div class="banner-container">
+  <img src="../images/Banner.png" alt="Banner" class="banner-bg">
+</div>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-large">
+
+    <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+
+    <!-- Engineering Dropdown -->
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">
+        Engineering ▾
+      </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="../engineering/optiroute.html" class="w3-bar-item w3-button">OptiRoute</a>
+      </div>
+    </div>
+
+    <!-- Games Dropdown -->
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-theme-l1">
+        Games ▾
+      </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="labinacs-cuisine.html" class="w3-bar-item w3-button">
+          Labinac’s Cuisine
+        </a>
+        <a href="end-of-eros.html" class="w3-bar-item w3-button">
+          End of Eros
+        </a>
+        <a href="sprout.html" class="w3-bar-item w3-button">
+          SPROUT
+        </a>
+        <a href="freddys-revival.html" class="w3-bar-item w3-button">Freddy's Revival</a>
+      </div>
+    </div>
+
+    <a href="../contact.html" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+
+<!-- Main content -->
+<div class="page-bg"> 
+    <div class="w3-main">
+    <div class="w3-container page-center">
+      <div class="w3-padding-32 w3-white w3-round-large w3-margin-bottom" style="padding-left: 10%;">
+        <h2>Freddy’s Revival</h2>
+
+        <!-- Gameplay Video -->
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/UFDVORB8iO0"
+            title="Freddy’s Revival Gameplay"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- KEY SPECIFICATIONS -->
+        <p><b>Role:</b> Solo Developer | <b>Year:</b> 2024</p>
+        <p>
+          <b>Platform:</b> PC / WebGL |
+          <b>Genre:</b> FPS Survival Horror |
+          <b>Art Style:</b> Stylized 3D |
+          <b>Target Audience:</b> Teen+
+        </p>
+
+        <p>
+          <b>Overview:</b>
+          <i>Freddy’s Revival</i> is a first-person survival horror experience developed in Unity,
+          inspired by the <i>Five Nights at Freddy’s</i> franchise. Set inside an abandoned diner owned
+          by Freddy Fazbear Entertainment, players assume the role of the iconic night guard tasked with
+          shutting down a malfunctioning Freddy animatronic, recovering the companion character Cupcake,
+          and escaping before being caught.
+        </p>
+
+        <p>
+          Unlike traditional point-and-click horror, <i>Freddy’s Revival</i> places players directly
+          into a fully explorable 3D environment, emphasizing spatial awareness, movement-based tension,
+          and real-time decision-making.
+        </p>
+
+        <p>
+          <b>Gameplay:</b>
+          Players must explore the diner to locate a misplaced stun gun left behind by the previous staff.
+          While navigating the maze-like interior, players evade animatronics using sprinting, hiding in
+          vents, and environmental cover. Freddy relentlessly hunts the player, while Chica and Bonnie
+          remain passive unless provoked—though stunning them may trigger aggressive behavior.
+        </p>
+
+        <p><b>Core Features:</b></p>
+        <ul>
+          <li>First-person WASD movement with mouse-controlled camera</li>
+          <li>Explorable 3D diner environment with vents and hiding spaces</li>
+          <li>Stun-based combat emphasizing risk vs. reward</li>
+          <li>Enemy AI powered by Unity NavMesh and state machines</li>
+          <li>Dynamic animatronic behavior including patrols and jump scares</li>
+        </ul>
+
+        <p>
+          <b>Tools & Workflow:</b>
+          Unity, NavMesh, State Machines, 3DS Max, Substance Painter,
+          Photoshop, Procreate, Trello, Discord
+        </p>
+
+        <!-- Highlights -->
+        <h3 class="w3-text-black w3-border-bottom w3-padding-bottom">
+          <b>Highlights</b>
+        </h3>
+
+        <ul class="w3-ul w3-margin-top">
+          <li>
+            <b>FPS Adaptation of Classic Survival Horror</b><br>
+            Reimagines the Five Nights at Freddy’s formula by shifting tension from static observation
+            to player-driven exploration and movement.
+          </li>
+
+          <li>
+            <b>State-Driven Enemy AI</b><br>
+            Animatronics operate using modular state machines, enabling patrol, chase, idle, and
+            jump-scare behaviors that respond dynamically to player actions.
+          </li>
+
+          <li>
+            <b>Risk-Based Stun Mechanics</b><br>
+            Stunning animatronics provides temporary safety but may escalate aggression, forcing
+            strategic decision-making under pressure.
+          </li>
+
+          <li>
+            <b>Environmental Stealth & Navigation</b><br>
+            Vent systems and narrow corridors encourage creative evasion and heighten claustrophobic tension.
+          </li>
+
+          <li>
+            <b>Immersive Horror Atmosphere</b><br>
+            Lighting, sound design, and spatial layout work together to maintain suspense and player vulnerability.
+          </li>
+
+          <li>
+            <b>Scalable AI Architecture</b><br>
+            Enemy systems were designed for easy expansion, allowing additional animatronics or behaviors
+            to be added with minimal refactoring.
+          </li>
+        </ul>
+
+        <!-- IMAGES -->
+        <div class="slideshow-container w3-display-container" id="freddysGallery">
+          <img class="slide w3-animate-opacity" src="images/Freddy1.png">
+          <img class="slide w3-animate-opacity" src="images/Freddy2.jpg">
+          <img class="slide w3-animate-opacity" src="images/Freddy3.jpg">
+
+          <button class="w3-button w3-display-left w3-black"
+            onclick="plusSlides(-1, 'freddysGallery')">&#10094;</button>
+
+          <button class="w3-button w3-display-right w3-black"
+            onclick="plusSlides(1, 'freddysGallery')">&#10095;</button>
+        </div>
+
+        <!-- GAME BUTTON -->
+        <div class="w3-margin-top itch-container">
+          <iframe frameborder="0" src="https://itch.io/embed/2699728" width="552" height="167"><a href="https://adelear.itch.io/freddys-revival">Freddy&#039;s Revival by Adelear</a></iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -51,6 +51,7 @@
         <a href="sprout.html" class="w3-bar-item w3-button">
           SPROUT
         </a>
+        <a href="freddys-revival.html" class="w3-bar-item w3-button">Freddy's Revival</a>
       </div>
     </div>
 
@@ -64,103 +65,119 @@
     <div class="w3-main">
     <div class="w3-container page-center">
         <div class="w3-padding-32 w3-white w3-round-large w3-margin-bottom" style="padding-left: 10%;">
-            <h2>SPROUT</h2>
+          <h2>SPROUT</h2>
 
-            <!-- Gameplay Video -->
-            
-            <div class="video-container">
-                <iframe
-                    src="https://www.youtube.com/embed/I-VSbnFVcj8"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
+          <!-- Gameplay Video -->
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/I-VSbnFVcj8"
+              title="SPROUT Gameplay"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
 
+          <!-- KEY SPECIFICATIONS -->
+          <p><b>Role:</b> Programmer, UI/UX | <b>Year:</b> 2024</p>
+          <p>
+            <b>Platform:</b> WebGL |
+            <b>Genre:</b> 2D Platformer |
+            <b>Art Style:</b> Pixelated & Toony |
+            <b>Target Audience:</b> Everyone
+          </p>
 
-            <!-- KEY SPECIFICATIONS -->
+          <p>
+            <b>Overview:</b>
+            <i>SPROUT</i> is a 2D platformer developed in 72 hours for the Toronto Film School Spring Game Jam,
+            themed around <b>Duality</b>. Players take on the role of Sprout, a character with the unique ability
+            to switch between giant and tiny forms. This core mechanic drives both platforming challenges and
+            puzzle-solving, requiring players to strategically change size to progress.
+          </p>
 
-            <p><b>Role:</b> Programmer, Tech Lead (2 Dev Team)| <b>Year:</b> 2024</p>
+          <p>
+            The game was showcased at <b>FANEXPO Canada</b> at Toronto Film School’s booth,
+            where it was played on an arcade cabinet by convention attendees.
+          </p>
 
-            <p><b>Platform:</b> Web | <b>Genre:</b> Platformer | <b>Art Style:</b> 2D Pixelated| <b>Target Audience:</b> G</p>
-            
-            <p><b>Overview:</b> Sprout was made in 72 hours by a team of two developers for TFS' Spring Jam, with the theme 
-                ‘Duality’. Sprout was also featured at FANEXPO, at Toronto Film School's booth on an arcade machine! 
-            </p>
-            
-            <p><b>Gameplay:</b>In Sprout, players take on the role of a character with the unique 
-                ability to toggle between a giant and a tiny form. Embark on a whimsical platforming adventure as Sprout navigates 
-                through vibrant and challenging levels, using his size-changing powers to overcome obstacles. The ultimate goal? 
-                To reach the amusement park and enjoy the fun-filled rides and attractions.</p>
-            
-            <p><b>Core Features:</b></p>
-            <ul>
-                <li>Cooking: Experiment with ingredients to feed fishy patrons.</li>
-                <li>Serving: Fast-paced drag-and-drop mechanics for timely meal delivery.</li>
-                <li>AI Customers: Fish have unique behaviors, hunger timers, and satisfaction metrics.</li>
-                <li>Multiple Endings: From failure to perfect acclaim based on your decisions.</li>
-            </ul>
-            
-            <p><b>Tools & Workflow:</b> Unity, 3DSMax, Substance Painter, ProCreate, Photoshop, Trello, Discord</p>
-            <!-- Highlights -->
+          <p>
+            <b>Gameplay:</b>
+            Players navigate vibrant city-inspired levels using Sprout’s size-shifting ability.
+            Giant Sprout is powerful but slow, capable of moving heavy objects and breaking barriers.
+            Tiny Sprout is fast and agile, able to wall jump and squeeze through narrow spaces.
+            Mastery of both forms is required to reach the amusement park at the end of the journey.
+          </p>
 
-            <h3 class="w3-text-black w3-border-bottom w3-padding-bottom">
-                <b>Highlights</b>
-            </h3>
+          <p><b>Core Features:</b></p>
+          <ul>
+            <li>Toggle-based size transformation mechanic (giant ↔ tiny)</li>
+            <li>Platforming challenges built around dual movement styles</li>
+            <li>Environmental puzzles requiring strategic form switching</li>
+            <li>Wall jumping, physics-based obstacles, and traversal challenges</li>
+            <li>Short-form narrative delivered through environmental context</li>
+          </ul>
 
-            <ul class="w3-ul w3-margin-top">
-                <li>
-                    <b>Deceptive Narrative Design Tied to Core Mechanics</b><br>
-                    What begins as a traditional restaurant simulation gradually subverts player expectations as ingredient scarcity forces morally questionable solutions, embedding the game jam theme directly into gameplay.
-                </li>
+          <p>
+            <b>Tools & Workflow:</b>
+            Unity, Visual Studio, Aseprite, Clip Studio Paint,
+            Discord, Trello
+          </p>
 
-                <li>
-                    <b>Physics-Inspired Drag-and-Drop Interaction System</b><br>
-                    All interactable objects inherit from a shared Draggables base class, enabling consistent movement, collision boundaries, and contextual feedback across kitchen tools, fish, and food items.
-                </li>
+          <!-- Highlights -->
+          <h3 class="w3-text-black w3-border-bottom w3-padding-bottom">
+            <b>Highlights</b>
+          </h3>
 
-                <li>
-                    <b>State-Driven AI Customers with Timed Behavior</b><br>
-                    Fish patrons operate on a clear state machine with independent timers that pause, resume, or terminate based on player interaction, creating dynamic yet readable customer behavior.
-                </li>
+          <ul class="w3-ul w3-margin-top">
+            <li>
+              <b>Theme-Driven Core Mechanic</b><br>
+              The size-switching system directly embodies the game jam theme of duality,
+              influencing movement, puzzle design, and player strategy.
+            </li>
 
-                <li>
-                    <b>Strategic Resource & Quality Management</b><br>
-                    Different fish types apply weighted modifiers to food quality, encouraging players to balance speed, cooking precision, and ethical compromise to optimize final ratings.
-                </li>
+            <li>
+              <b>Distinct Movement Identities</b><br>
+              Giant and tiny forms each feature unique physics, speed, and traversal capabilities,
+              creating meaningful gameplay contrast.
+            </li>
 
-                <li>
-                    <b>Multiple Endings Based on Emergent Play</b><br>
-                    Player performance feeds into a final Food Inspector evaluation, producing five distinct endings that reflect service quality, efficiency, and moral decisions.
-                </li>
+            <li>
+              <b>Rapid Prototyping Under Time Constraints</b><br>
+              Designed and implemented core mechanics, UI, and polish within a 72-hour game jam timeline.
+            </li>
 
-                <li>
-                    <b>Scalable Script Architecture via Inheritance</b><br>
-                    Core gameplay systems were designed for rapid iteration under game jam constraints, emphasizing code reuse and extensibility through inheritance-based architecture.
-                </li>
-            </ul>
-            
+            <li>
+              <b>Pixel Art & UI Collaboration</b><br>
+              Worked closely with the artist to integrate pixel art assets,
+              UI elements, and animations into a cohesive visual style.
+            </li>
 
-        <!-- IMAGES -->
-            <div class="slideshow-container w3-display-container" id="labinacsGallery">
-                <img class="slide w3-animate-opacity" src="images/Labinac1.png">
-                <img class="slide w3-animate-opacity" src="images/Labinac2.png">
-                <img class="slide w3-animate-opacity" src="images/Labinac3.png">
+            <li>
+              <b>Public Showcase Experience</b><br>
+              Playtested by hundreds of players during FANEXPO,
+              providing real-world feedback and audience engagement.
+            </li>
+          </ul>
 
-                <button class="w3-button w3-display-left w3-black"
-                onclick="plusSlides(-1, 'labinacsGallery')">&#10094;</button>
+          <!-- IMAGES -->
+          <div class="slideshow-container w3-display-container" id="sproutGallery">
+            <img class="slide w3-animate-opacity" src="images/Sprout1.png">
+            <img class="slide w3-animate-opacity" src="images/Sprout2.png">
+            <img class="slide w3-animate-opacity" src="images/Sprout3.jpg">
 
-                <button class="w3-button w3-display-right w3-black"
-                onclick="plusSlides(1, 'labinacsGallery')">&#10095;</button>
-            </div>
+            <button class="w3-button w3-display-left w3-black"
+              onclick="plusSlides(-1, 'sproutGallery')">&#10094;</button>
 
-            <!-- GAME BUTTON -->
-            <div>
-                <iframe src="https://itch.io/embed/2625420" width="552" height="167"></iframe>
-            </div>
+            <button class="w3-button w3-display-right w3-black"
+              onclick="plusSlides(1, 'sproutGallery')">&#10095;</button>
+          </div>
 
+          <!-- GAME BUTTON -->
+          <div class="w3-margin-top itch-container">
+            <iframe height="167" frameborder="0" src="https://itch.io/embed/2814412" width="552"><a href="https://adelear.itch.io/sprout">Sprout by Adelear, Allasskkaaaa</a></iframe>
+          </div>
         </div>
-    </div>
+
+    
 </div>
 
 </body>
