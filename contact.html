@@ -72,25 +72,27 @@
       </div>
 
       <!-- Contact Form -->
-      <div class="w3-col l4 m12 s12" style="padding:20px; border-left:2px solid #000; border-right:2px solid #000;">
-        <form>
-          <p>
-            <label>Full Name</label>
-            <input class="w3-input w3-border" type="text" placeholder="Your Name" style="height:30px; font-size:14px;">
-          </p>
-          <p>
-            <label>Email</label>
-            <input class="w3-input w3-border" type="email" placeholder="you@example.com" style="height:30px; font-size:14px;">
-          </p>
-          <p>
-            <label>Message</label>
-            <textarea class="w3-input w3-border" placeholder="Write your message..." style="height:80px; font-size:14px;"></textarea>
-          </p>
-          <p>
-            <button class="w3-button w3-black w3-small">Send Message</button>
-          </p>
-        </form>
-      </div>
+      <form action="https://formspree.io/f/xlgggljv" method="POST">
+        <p>
+          <label>Full Name</label>
+          <input class="w3-input w3-border" type="text" name="name" required>
+        </p>
+
+        <p>
+          <label>Email</label>
+          <input class="w3-input w3-border" type="email" name="email" required>
+        </p>
+
+        <p>
+          <label>Message</label>
+          <textarea class="w3-input w3-border" name="message" required></textarea>
+        </p>
+
+        <button class="w3-button w3-black w3-small" type="submit">
+          Send Message
+        </button>
+      </form>
+
 
       <!-- Contact Links -->
       <div class="w3-col l4 m12 s12" style="padding:20px;">
